@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 300px;
+    background: #fff;
+    margin: 5px auto;
+    padding: 41px 20px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100px;
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px 0px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 26px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
